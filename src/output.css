@@ -554,15 +554,70 @@ video {
   display: none;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.p-\[20px\] {
+  padding: 20px;
+}
+
+.text-end {
+  text-align: end;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-\[23px\] {
+  font-size: 23px;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
+.font-\[700\] {
+  font-weight: 700;
+}
+
+.text-\[\#161616\] {
+  --tw-text-opacity: 1;
+  color: rgb(22 22 22 / var(--tw-text-opacity, 1));
+}
+
 .underline {
   text-decoration-line: underline;
+}
+
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
 }

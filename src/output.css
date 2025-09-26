@@ -558,6 +558,14 @@ video {
   margin: auto;
 }
 
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
 .flex {
   display: flex;
 }
@@ -568,6 +576,10 @@ video {
 
 .max-w-\[1200px\] {
   max-width: 1200px;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -582,33 +594,73 @@ video {
   gap: 0.75rem;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
 .p-\[20px\] {
   padding: 20px;
+}
+
+.p-\[40px\] {
+  padding: 40px;
+}
+
+.p-\[\] {
+  padding: ;
+}
+
+.p-\[10px\] {
+  padding: 10px;
+}
+
+.p-\[15px\] {
+  padding: 15px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-end {
   text-align: end;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .text-\[23px\] {
   font-size: 23px;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
+.text-\[30px\] {
+  font-size: 30px;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-\[25px\] {
+  font-size: 25px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .font-\[700\] {
   font-weight: 700;
+}
+
+.font-\[500\] {
+  font-weight: 500;
 }
 
 .text-\[\#161616\] {
@@ -616,8 +668,9 @@ video {
   color: rgb(22 22 22 / var(--tw-text-opacity, 1));
 }
 
-.text-\[\] {
-  color: ;
+.text-\[\#36895F\] {
+  --tw-text-opacity: 1;
+  color: rgb(54 137 95 / var(--tw-text-opacity, 1));
 }
 
 .text-\[\#8E8E8E\] {
@@ -625,21 +678,29 @@ video {
   color: rgb(142 142 142 / var(--tw-text-opacity, 1));
 }
 
-.text-\[\#\#36895F\] {
-  color: ##36895F;
-}
-
-.text-\[\#36895F\] {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(54 137 95 / var(--tw-text-opacity, 1));
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-\[\] {
+  color: ;
+}
+
+.bg1{
+  background-image: url(./img/image\ copy\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
 }
 
 @media (min-width: 1024px) {
   .lg\:block {
     display: block;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 }

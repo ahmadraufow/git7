@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.bg1{
+    background-image: url(./img/image\ copy\ 2.png);
+    background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     border-radius: 10px;
+}

@@ -8,3 +8,34 @@
      background-position: center;
      border-radius: 10px;
 }
+input{
+    border: 3px;
+    border:#DCDCDC;
+}
+.bg2{
+    background-image: url(./img/image\ copy\ 13.png);
+    background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     border-radius: 10px;
+}
+.bt1{
+    color: #ffffff;
+    border: none;
+padding: 14px 21px;
+gap: 16px;
+width: 280px;
+height: 50px;
+background: linear-gradient(82.23deg, #36895F -1.99%, #00552F 100%);
+border-radius: 100px;
+}
+.border{
+width: 280px;
+height: 0px;
+border: 1px dashed #CCCCCC;
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
